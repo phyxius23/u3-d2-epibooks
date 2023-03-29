@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <MyNav brand="EpiBooks"/>
-      <Welcome />
+      <Welcome title="EpiBooks"/>
       <AllTheBooks />
       <MyFooter brand="EpiBooks" />
     </>
