@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
-import books from '../data/books/scifi.json'
+import books from '../data/books/fantasy.json'
 
 const AllTheBooks = () => (
   <Container>
@@ -11,7 +11,7 @@ const AllTheBooks = () => (
             <Card.Body className='mt-auto'>
               <Card.Title>{elem.title}</Card.Title>
               <Card.Text>
-                <Badge>€ {elem.category}</Badge>
+                <Badge>{elem.category}</Badge>
               </Card.Text>
               <Card.Text className='text-end'>€ {elem.price}</Card.Text>
             </Card.Body>
